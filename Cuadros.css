@@ -1,0 +1,64 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+/*Diseño de pagina*/ 
+
+#wrap {width: 900px ; height: 900px; margin: 0 auto; background-color: #284276; overflow: hidden}
+#cu1 {width: 750px ; height: 750px; margin: 75px 25px 25px 75px; background-color: #458784; overflow: hidden}
+#cu2 {width: 600px ; height: 600px; margin: 75px 0px; background-color: #59A489; overflow: hidden}
+#cu3 {width: 450px ; height: 450px; margin: 75px 0px 75px 150px; background-color: #307A42; overflow: hidden}
+#cu4 {width: 300px ; height: 300px; margin: 75px 0px 75px 150px; background-color: #9AAB3D; overflow: hidden}
+#cu5 {width: 150px ; height: 150px; margin: 75px auto; background-color:#B05835; overflow: hidden}
+#cu6 {width: 50px ; height: 50px; margin: 25px 0px 0px 25px; background-color:#9E3838; overflow: hidden;}
+#cu7 {width: 50px ; height: 50px; margin: -50px 0px 0px 75px; background-color:#723F8C; overflow: hidden;}
+#cu8 {width: 50px ; height: 50px; margin: 50px 0px 0px 0px; background-color:#2A34A2; overflow: hidden; position: absolute }
+#cu9 {width: 50px ; height: 50px; margin: 50px 0px 0px -50px; background-color:#1B75B5; overflow: hidden; position: absolute}
+
+
